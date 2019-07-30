@@ -1,3 +1,3 @@
-const arr = ['JavaScript', 'Node', 'webpack']
+var arr = ['JavaScript', 'Node', 'webpack']
 console.log(arr)
 
