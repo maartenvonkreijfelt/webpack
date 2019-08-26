@@ -10,6 +10,9 @@ module.exports = {
     plugins: [
         new HtmlWebpackPlugin({
             title: 'My custom project template',
+            minify:{
+               collapseWhitespace:true
+            },
 // Load a custom template (lodash by default)
             template: 'src/index.ejs'
         })
