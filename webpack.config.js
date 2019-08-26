@@ -8,6 +8,10 @@ module.exports = {
         path: path.join(__dirname, "dist")
     },
     plugins: [
-        new HtmlWebpackPlugin()
+        new HtmlWebpackPlugin({
+            title: 'My custom project template',
+// Load a custom template (lodash by default)
+            template: 'src/index.ejs'
+        })
     ]
 }
